@@ -34,8 +34,8 @@ Some operations may require elevated privileges. Run with the minimum permission
 Download or clone this repository, then open a terminal in the project directory.
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
-cd <YOUR-REPOSITORY-DIRECTORY>
+git clone https://github.com/Phoenix-2410/Parrot_security_Ai.git
+cd Parrot_security_Ai
 ```
 
 If you downloaded a ZIP, extract it and `cd` into the extracted folder instead.
@@ -44,6 +44,7 @@ If you downloaded a ZIP, extract it and `cd` into the extracted folder instead.
 
 ```bash
 python3 -m pip install -r requirements.txt
+sudo ./install.sh
 ```
 
 On Parrot OS or Kali Linux, if the system Python environment is externally managed, use a virtual environment:
@@ -52,23 +53,19 @@ On Parrot OS or Kali Linux, if the system Python environment is externally manag
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+sudo ./install.sh
 ```
 
 ### 3. Start the assistant
 
 Run the entry-point script available in this repository:
 
-```bash
-python3 parrot_ai.py
+```
+sudo parrot-ai
+
 ```
 
-If your version uses the newer script, try:
-
-```bash
-python3 parrot_ai_v5.py
-```
-
-Use `python3 <script-name> --help` if command-line help is supported by that version. The optional `install.sh` installer may set up a launcher; review the script before running it with `sudo`.
+Use `--help` if command-line help is supported by that version. The optional `install.sh` installer may set up a launcher; review the script before running it with `sudo`.
 
 ## 💻 Example commands
 
