@@ -1,0 +1,3 @@
+# Install with: python3 -m pip install -r requirements.txt
+# Python 3.7+ and tkinter are system/runtime requirements, not pip packages.
+requests>=2.25.0
