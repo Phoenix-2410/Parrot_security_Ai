@@ -150,7 +150,7 @@ Contributions are welcome. Open an issue to report a bug or suggest a feature, o
 
 ## 📄 Contributing
 
-This project is licensed under the MIT License. See the "LICENSE" (LICENSE.) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.) file for details.
 
 ---
 
