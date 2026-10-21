@@ -148,9 +148,9 @@ This project is intended for **education, defensive security, and authorized sec
 
 Contributions are welcome. Open an issue to report a bug or suggest a feature, or submit a pull request with a clear description and testing notes.
 
-## 📄 License
+## 📄 Contributing
 
-No license file was identified in this project package. Add a `LICENSE` file before presenting the project as open source, and choose a license that matches how you want others to use, modify, and distribute it.
+This project is licensed under the MIT License. See the "LICENSE" (LICENSE) file for details.
 
 ---
 
