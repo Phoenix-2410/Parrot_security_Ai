@@ -34,7 +34,7 @@ Some operations may require elevated privileges. Run with the minimum permission
 Download or clone this repository, then open a terminal in the project directory.
 
 ```bash
-git clone https://github.com/Phoenix-2410/Parrot_security_Ai.git
+sudo git clone https://github.com/Phoenix-2410/Parrot_security_Ai.git
 cd Parrot_security_Ai
 ```
 
@@ -43,14 +43,14 @@ If you downloaded a ZIP, extract it and `cd` into the extracted folder instead.
 ### 2. Install Python dependencies
 
 ```bash
-python3 -m pip install -r requirements.txt
+sudo chmod +x ./install.sh
 sudo ./install.sh
 ```
 
 On Parrot OS or Kali Linux, if the system Python environment is externally managed, use a virtual environment:
 
 ```bash
-python3 -m venv .venv
+sudo python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 sudo ./install.sh
